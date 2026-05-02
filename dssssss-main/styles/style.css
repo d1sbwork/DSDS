@@ -1429,13 +1429,18 @@ form {
   animation-delay: 0s;
 }
 .shooting-star:nth-child(2) {
-  left: 50%;
+  left: 60%;
   animation-delay: 1.5s;
 }
 .shooting-star:nth-child(3) {
-  left: 85%;
+  left: 80%;
   animation-delay: 3s;
 }
+.shooting-star:nth-child(4) {
+  left: 90%;
+  animation-delay: 5s;
+}
+
 
 @keyframes shoot {
   0% {
@@ -1449,20 +1454,4 @@ form {
     transform: translateY(600px) translateX(-300px) rotate(45deg);
     opacity: 0;
   }
-}
-.stars-bg::after {
-  content: "";
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  background: white;
-
-  box-shadow:
-    200px 50px white,
-    400px 120px white,
-    600px 250px white,
-    800px 320px white,
-    1000px 450px white;
-
-  opacity: 0.5;
 }

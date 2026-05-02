@@ -1459,6 +1459,10 @@ form {
   }
 }
 
+body {
+  overscroll-behavior: none;
+}
+
 html, body {
   margin: 0;
   padding: 0;

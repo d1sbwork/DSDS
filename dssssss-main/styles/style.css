@@ -1459,11 +1459,16 @@ form {
   }
 }
 
-body {
-  overscroll-behavior: none;
+.stars-bg {
+  pointer-events: none;
 }
 
 html, body {
   margin: 0;
   padding: 0;
+  overscroll-behavior: none;
+}
+
+body {
+  touch-action: pan-y;
 }

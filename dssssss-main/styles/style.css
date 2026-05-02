@@ -1425,19 +1425,19 @@ form {
 
 /* разные позиции */
 .shooting-star:nth-child(1) {
-  left: 43%;
+  left: 40vw;
   animation-delay: 0s;
 }
 .shooting-star:nth-child(2) {
-  left: 60%;
+  left: 60vw;
   animation-delay: 1.5s;
 }
 .shooting-star:nth-child(3) {
-  left: 80%;
+  left: 70vw;
   animation-delay: 3s;
 }
 .shooting-star:nth-child(4) {
-  left: 90%;
+  left: 80vw;
   animation-delay: 5s;
 }
 
